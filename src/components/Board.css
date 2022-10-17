@@ -1,0 +1,19 @@
+.Board {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    justify-content: center;
+}
+
+.Reset-Button {
+    border-radius: 4px;
+    margin-top: 10px;
+    background-color: #FF9E4D;
+    border: 1px solid #FF9E4D;
+    cursor: pointer;
+}
+
+.Reset-Button:disabled {
+    border: 1px solid #D3D3D3;
+    opacity: 0.6;
+    cursor: default;
+}

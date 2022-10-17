@@ -1,0 +1,13 @@
+.Square {
+  width: 100px;
+  height: 100px;
+  background-color: #23272a;
+  border: 1px solid #D3D3D3;
+  cursor: pointer;
+}
+
+button:disabled {
+  border: 1px solid #D3D3D3;
+  opacity: 1;
+  cursor: default;
+}
